@@ -59,7 +59,7 @@ const Hero = () => {
         </div>
 
         {/* Gaming Features Carousel */}
-        <div className="hidden lg:block">
+        <div>
           <GamingCarousel />
         </div>
       </div>
