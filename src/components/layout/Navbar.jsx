@@ -23,9 +23,9 @@ const Navbar = () => {
     return () => document.removeEventListener('mousedown', handleClickOutside);
   }, [menuOpen]);
 
-  const handleGetStarted = () => {
+  const handleContactUs = () => {
     window.location.href =
-      "mailto:muhammadmajidzia@pinnaklestudioz.com?subject=Getting%20Started&body=Hi,%20I%20want%20to%20get%20started!";
+      "mailto:muhammadmajidzia@pinnaklestudioz.com?subject=Contact%20Us&body=Hi,%20I%20would%20like%20to%20get%20in%20touch!";
   };
 
   return (
@@ -82,11 +82,11 @@ const Navbar = () => {
           {/* Desktop CTA Button */}
           <div className="hidden md:flex md:items-center">
             <button
-              onClick={handleGetStarted}
+              onClick={handleContactUs}
               className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-2.5 rounded-lg text-sm font-semibold shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300 flex items-center gap-2"
             >
-              Get Started
-              <span className="text-lg">🚀</span>
+              Contact Us
+              <span className="text-lg">📧</span>
             </button>
           </div>
 
@@ -161,13 +161,13 @@ const Navbar = () => {
           <div className="pt-4 pb-3 border-t border-gray-200">
             <button
               onClick={() => {
-                handleGetStarted();
+                handleContactUs();
                 setMenuOpen(false);
               }}
               className="w-full bg-gradient-to-r from-blue-600 to-purple-600 text-white px-4 py-3 rounded-lg text-base font-semibold shadow-lg hover:shadow-xl transition-all duration-300 flex items-center justify-center gap-2"
             >
-              Get Started
-              <span className="text-lg">🚀</span>
+              Contact Us
+              <span className="text-lg">📧</span>
             </button>
           </div>
         </div>

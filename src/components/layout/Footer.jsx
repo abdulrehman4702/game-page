@@ -6,32 +6,32 @@ const Footer = () => {
       {/* Background Effects */}
     
       <div className="max-w-7xl mx-auto px-8 relative z-10">
-        <div className="py-16">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
+        <div className="py-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {/* Enhanced Logo and Description */}
             <div className="lg:col-span-2">
-              <div className="flex items-center gap-3 mb-6">
+              <div className="flex items-center gap-3 mb-4">
                 <div className="flex-shrink-0">
                   <img
-                    className="h-12 w-auto lg:h-16 transition-transform duration-300 hover:scale-105"
+                    className="h-10 w-auto lg:h-12 transition-transform duration-300 hover:scale-105"
                     src="/logopin.jpeg"
-                    alt="Pinnacle Studioz Logo"
+                    alt="Pinakle Studioz Logo"
                   />
                 </div>
                 <div>
-                  <h3 className="text-2xl font-bold text-white mb-1">Pinnacle Studioz</h3>
+                  <h3 className="text-xl font-bold text-white mb-1">Pinakle Studioz</h3>
                   <p className="text-slate-400 text-sm">Gaming Excellence</p>
                 </div>
               </div>
               
-              <p className="text-slate-300 mb-8 leading-relaxed max-w-md">
+              <p className="text-slate-300 mb-6 leading-relaxed max-w-md">
                 The ultimate gaming platform for players worldwide. Experience 
                 next-generation gaming with cutting-edge technology and immersive 
                 gameplay across all platforms.
               </p>
               
               {/* Contact Info */}
-              <div className="space-y-4">
+              <div className="space-y-3">
                 <div className="flex items-center gap-3 group">
                   <div className="w-10 h-10 bg-gradient-to-r from-blue-500 to-purple-500 rounded-lg flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
                     <span className="text-white text-lg">📞</span>
@@ -56,11 +56,11 @@ const Footer = () => {
 
             {/* Platform Links */}
             <div>
-              <h4 className="mb-6 text-xl font-bold text-white flex items-center gap-2">
+              <h4 className="mb-4 text-lg font-bold text-white flex items-center gap-2">
                 <span className="text-blue-500">🎮</span>
                 Platform
               </h4>
-              <ul className="space-y-4">
+              <ul className="space-y-3">
                 <li>
                   <a 
                     href="#mobile" 
@@ -93,11 +93,11 @@ const Footer = () => {
 
             {/* Social Links */}
             <div>
-              <h4 className="mb-6 text-xl font-bold text-white flex items-center gap-2">
+              <h4 className="mb-4 text-lg font-bold text-white flex items-center gap-2">
                 <span className="text-purple-500">🌐</span>
                 Connect
               </h4>
-              <div className="space-y-4">
+              <div className="space-y-3">
                 <div className="flex gap-4">
                   <a 
                     href="#" 
@@ -125,11 +125,11 @@ const Footer = () => {
         </div>
         
         {/* Bottom Section */}
-        <div className="border-t border-slate-700 pt-8 pb-8">
+        <div className="border-t border-slate-700 pt-6 pb-6">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <div className="text-center md:text-left">
               <p className="text-slate-400 text-sm">
-                &copy; 2025 <span className="text-white font-semibold">PINNACLESTUDIOZ</span>. All rights reserved.
+                &copy; 2025 <span className="text-white font-semibold">PINAKLESTUDIOZ</span>. All rights reserved.
               </p>
             </div>
             
