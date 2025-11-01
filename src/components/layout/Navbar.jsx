@@ -51,31 +51,31 @@ const Navbar = () => {
           <div className="hidden md:flex md:items-center md:space-x-8">
             <a
               href="#home"
-              className="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium transition-colors duration-200 relative group"
+              className="text-slate-800 hover:text-blue-600 px-3 py-2 text-sm font-semibold transition-all duration-200 relative group"
             >
               Home
-              <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-600 transition-all duration-300 group-hover:w-full"></span>
+              <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-blue-600 to-purple-600 transition-all duration-300 group-hover:w-full"></span>
             </a>
             <a
               href="#mobile"
-              className="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium transition-colors duration-200 relative group"
+              className="text-slate-800 hover:text-blue-600 px-3 py-2 text-sm font-semibold transition-all duration-200 relative group"
             >
               Mobile
-              <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-600 transition-all duration-300 group-hover:w-full"></span>
+              <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-blue-600 to-purple-600 transition-all duration-300 group-hover:w-full"></span>
             </a>
             <a
               href="#platform"
-              className="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium transition-colors duration-200 relative group"
+              className="text-slate-800 hover:text-blue-600 px-3 py-2 text-sm font-semibold transition-all duration-200 relative group"
             >
               Platform
-              <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-600 transition-all duration-300 group-hover:w-full"></span>
+              <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-blue-600 to-purple-600 transition-all duration-300 group-hover:w-full"></span>
             </a>
             <a
               href="#showcase"
-              className="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium transition-colors duration-200 relative group"
+              className="text-slate-800 hover:text-blue-600 px-3 py-2 text-sm font-semibold transition-all duration-200 relative group"
             >
               Showcase
-              <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-600 transition-all duration-300 group-hover:w-full"></span>
+              <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-blue-600 to-purple-600 transition-all duration-300 group-hover:w-full"></span>
             </a>
           </div>
 
@@ -133,28 +133,28 @@ const Navbar = () => {
           <a
             href="#home"
             onClick={() => setMenuOpen(false)}
-            className="text-gray-700 hover:text-blue-600 block px-3 py-2 text-base font-medium transition-colors duration-200"
+            className="text-slate-800 hover:text-blue-600 block px-3 py-2 text-base font-semibold transition-colors duration-200"
           >
             Home
           </a>
           <a
             href="#mobile"
             onClick={() => setMenuOpen(false)}
-            className="text-gray-700 hover:text-blue-600 block px-3 py-2 text-base font-medium transition-colors duration-200"
+            className="text-slate-800 hover:text-blue-600 block px-3 py-2 text-base font-semibold transition-colors duration-200"
           >
             Mobile
           </a>
           <a
             href="#platform"
             onClick={() => setMenuOpen(false)}
-            className="text-gray-700 hover:text-blue-600 block px-3 py-2 text-base font-medium transition-colors duration-200"
+            className="text-slate-800 hover:text-blue-600 block px-3 py-2 text-base font-semibold transition-colors duration-200"
           >
             Platform
           </a>
           <a
             href="#showcase"
             onClick={() => setMenuOpen(false)}
-            className="text-gray-700 hover:text-blue-600 block px-3 py-2 text-base font-medium transition-colors duration-200"
+            className="text-slate-800 hover:text-blue-600 block px-3 py-2 text-base font-semibold transition-colors duration-200"
           >
             Showcase
           </a>

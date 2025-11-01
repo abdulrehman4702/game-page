@@ -6,8 +6,8 @@ const Footer = () => {
       {/* Background Effects */}
     
       <div className="max-w-7xl mx-auto px-8 relative z-10">
-        <div className="py-8">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="py-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {/* Enhanced Logo and Description */}
             <div className="lg:col-span-2">
               <div className="flex items-center gap-3 mb-4">
@@ -24,31 +24,31 @@ const Footer = () => {
                 </div>
               </div>
               
-              <p className="text-slate-300 mb-6 leading-relaxed max-w-md">
+              <p className="text-slate-300 mb-4 leading-relaxed max-w-md text-base font-medium">
                 The ultimate gaming platform for players worldwide. Experience 
                 next-generation gaming with cutting-edge technology and immersive 
                 gameplay across all platforms.
               </p>
               
               {/* Contact Info */}
-              <div className="space-y-3">
+              <div className="space-y-2">
                 <div className="flex items-center gap-3 group">
                   <div className="w-10 h-10 bg-gradient-to-r from-blue-500 to-purple-500 rounded-lg flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
                     <span className="text-white text-lg">📞</span>
                   </div>
                   <div>
-                    <div className="font-semibold text-white text-lg">+351 910 554 305</div>
-                    <div className="text-slate-400 text-sm">Lisbon, Portugal</div>
+                    <div className="font-bold text-white text-lg">+351 910 554 305</div>
+                    <div className="text-slate-300 text-sm font-medium">Lisbon, Portugal</div>
                   </div>
                 </div>
                 
                 <div className="flex items-center gap-3 group">
-                  <div className="w-10 h-10 bg-gradient-to-r from-green-500 to-cyan-500 rounded-lg flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                  <div className="w-10 h-10 bg-gradient-to-r from-green-500 to-cyan-500 rounded-lg flex items-center justify-center group-hover:scale-110 transition-transform duration-300 shadow-lg">
                     <span className="text-white text-lg">✉️</span>
                   </div>
                   <div>
-                    <div className="font-semibold text-white text-lg">Contact Us</div>
-                    <div className="text-slate-400 text-sm">muhammadmajidzia@pinnaklestudioz.com</div>
+                    <div className="font-bold text-white text-lg">Contact Us</div>
+                    <div className="text-slate-300 text-sm font-medium">muhammadmajidzia@pinnaklestudioz.com</div>
                   </div>
                 </div>
               </div>
@@ -56,15 +56,15 @@ const Footer = () => {
 
             {/* Platform Links */}
             <div>
-              <h4 className="mb-4 text-lg font-bold text-white flex items-center gap-2">
+              <h4 className="mb-3 text-lg font-bold text-white flex items-center gap-2">
                 <span className="text-blue-500">🎮</span>
                 Platform
               </h4>
-              <ul className="space-y-3">
+              <ul className="space-y-2">
                 <li>
                   <a 
                     href="#mobile" 
-                    className="text-slate-300 hover:text-blue-400 transition-colors duration-300 flex items-center gap-2 group"
+                    className="text-slate-300 hover:text-blue-400 transition-colors duration-300 flex items-center gap-2 group font-medium"
                   >
                     <span className="group-hover:translate-x-1 transition-transform duration-300">→</span>
                     <span>Mobile Gaming</span>
@@ -73,7 +73,7 @@ const Footer = () => {
                 <li>
                   <a 
                     href="#home" 
-                    className="text-slate-300 hover:text-blue-400 transition-colors duration-300 flex items-center gap-2 group"
+                    className="text-slate-300 hover:text-blue-400 transition-colors duration-300 flex items-center gap-2 group font-medium"
                   >
                     <span className="group-hover:translate-x-1 transition-transform duration-300">→</span>
                     <span>Home Gaming</span>
@@ -82,7 +82,7 @@ const Footer = () => {
                 <li>
                   <a 
                     href="#showcase" 
-                    className="text-slate-300 hover:text-blue-400 transition-colors duration-300 flex items-center gap-2 group"
+                    className="text-slate-300 hover:text-blue-400 transition-colors duration-300 flex items-center gap-2 group font-medium"
                   >
                     <span className="group-hover:translate-x-1 transition-transform duration-300">→</span>
                     <span>Our Partners</span>
@@ -93,7 +93,7 @@ const Footer = () => {
 
             {/* Social Links */}
             <div>
-              <h4 className="mb-4 text-lg font-bold text-white flex items-center gap-2">
+              <h4 className="mb-3 text-lg font-bold text-white flex items-center gap-2">
                 <span className="text-purple-500">🌐</span>
                 Connect
               </h4>
@@ -125,18 +125,18 @@ const Footer = () => {
         </div>
         
         {/* Bottom Section */}
-        <div className="border-t border-slate-700 pt-6 pb-6">
-          <div className="flex flex-col md:flex-row justify-between items-center gap-4">
+        <div className="border-t border-slate-700 pt-4 pb-4">
+          <div className="flex flex-col md:flex-row justify-between items-center gap-3">
             <div className="text-center md:text-left">
-              <p className="text-slate-400 text-sm">
-                &copy; 2025 <span className="text-white font-semibold">PINAKLESTUDIOZ</span>. All rights reserved.
+              <p className="text-slate-300 text-sm font-medium">
+                &copy; 2025 <span className="text-white font-bold">PINAKLESTUDIOZ</span>. All rights reserved.
               </p>
             </div>
             
-            <div className="flex gap-6 text-sm">
-              <a href="#" className="text-slate-400 hover:text-white transition-colors duration-300">Privacy Policy</a>
-              <a href="#" className="text-slate-400 hover:text-white transition-colors duration-300">Terms of Service</a>
-              <a href="#" className="text-slate-400 hover:text-white transition-colors duration-300">Cookie Policy</a>
+            <div className="flex gap-4 text-sm">
+              <a href="#" className="text-slate-300 hover:text-white transition-colors duration-300 font-medium">Privacy Policy</a>
+              <a href="#" className="text-slate-300 hover:text-white transition-colors duration-300 font-medium">Terms of Service</a>
+              <a href="#" className="text-slate-300 hover:text-white transition-colors duration-300 font-medium">Cookie Policy</a>
             </div>
           </div>
         </div>
