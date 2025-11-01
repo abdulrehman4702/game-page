@@ -25,7 +25,7 @@ const Navbar = () => {
 
   const handleContactUs = () => {
     window.location.href =
-      "mailto:muhammadmajidzia@pinnaklestudioz.com?subject=Contact%20Us&body=Hi,%20I%20would%20like%20to%20get%20in%20touch!";
+      "mailto:muhammadmajidzia@pinnaclestudioz.com?subject=Contact%20Us&body=Hi,%20I%20would%20like%20to%20get%20in%20touch!";
   };
 
   return (

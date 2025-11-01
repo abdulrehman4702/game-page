@@ -15,11 +15,11 @@ const Footer = () => {
                   <img
                     className="h-8 w-auto lg:h-10 transition-transform duration-300 hover:scale-105"
                     src="/logopin.jpeg"
-                    alt="Pinakle Studioz Logo"
+                    alt="Pinnacle Studioz Logo"
                   />
                 </div>
                 <div>
-                  <h3 className="text-lg font-bold text-white mb-0.5">Pinakle Studioz</h3>
+                  <h3 className="text-lg font-bold text-white mb-0.5">Pinnacle Studioz</h3>
                   <p className="text-slate-400 text-xs">Gaming Excellence</p>
                 </div>
               </div>
@@ -48,7 +48,7 @@ const Footer = () => {
                   </div>
                   <div>
                     <div className="font-bold text-white text-sm">Contact Us</div>
-                    <div className="text-slate-300 text-xs font-medium">muhammadmajidzia@pinnaklestudioz.com</div>
+                    <div className="text-slate-300 text-xs font-medium">muhammadmajidzia@pinnaclestudioz.com</div>
                   </div>
                 </div>
               </div>
@@ -128,7 +128,7 @@ const Footer = () => {
         <div className="border-t border-slate-700 pt-3 pb-3">
           <div className="flex flex-col md:flex-row justify-center items-center gap-2 text-center">
             <p className="text-slate-300 text-xs font-medium">
-              &copy; 2025 <span className="text-white font-bold">PINAKLESTUDIOZ</span>. All rights reserved.
+              &copy; 2025 <span className="text-white font-bold">PINNACLESTUDIOZ</span>. All rights reserved.
             </p>
             <span className="hidden md:inline text-slate-600 mx-2">|</span>
             <div className="flex gap-3 text-xs">
